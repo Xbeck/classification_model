@@ -1,2 +1,2 @@
-fastai=="*"
-plotly=="*"
+fastai==2.7.9
+plotly==5.10.0
