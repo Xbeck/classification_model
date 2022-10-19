@@ -41,7 +41,7 @@ if file:
   st.image(img, 255, 255)
 
   # model
-  model = load_learner(".\\fishs_birds_animals_model.pkl")
+  model = load_learner("fishs_birds_animals_model.pkl")
 
   # prediction
   pred, pred_id, probs = model.predict(img)
